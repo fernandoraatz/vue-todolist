@@ -1,0 +1,43 @@
+/*
+|--------------------------------------------------------------------------
+| Card
+|--------------------------------------------------------------------------
+*/
+
+.card-item{
+    background-color: #24a777;
+    color: white;
+    width:22%;
+    min-height: 145px;
+    float: left;
+    margin-right:2%;
+    padding:16px;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.card-title{
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.card-description{
+    font-size: 0.95em;
+}
+
+.card-options{ 
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+    button{
+        background: 0 0;
+        color:#fff;
+        border: none;
+        padding: 0 5px;
+        transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+        outline: none;
+        cursor: pointer;
+ 
+    }
+}

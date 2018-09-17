@@ -1,0 +1,71 @@
+/*
+|--------------------------------------------------------------------------
+| Paths
+|--------------------------------------------------------------------------
+*/
+
+$path-image:  '../images';
+$path-font:   '../../fonts';
+
+/*
+|--------------------------------------------------------------------------
+| Main Container Width
+|--------------------------------------------------------------------------
+*/
+
+$main-width:  98%;
+
+/*
+|--------------------------------------------------------------------------
+| Colors
+|--------------------------------------------------------------------------
+*/
+
+$color-bg:			   #f1f1f1;
+
+$color-text:		   #555555;
+$color-title:		   #555555;
+$color-subtitle:	   #555555;
+$color-link: 		   #66afe9;
+
+$color-theme:	       #ffffff;
+
+$btn-theme: 		   #ffffff;
+$btn-primary: 		   #337ab7;
+$btn-success:		   #5cb85c;
+$btn-danger:		   #d9534f;
+
+$input-bg:			   #ffffff;
+$input-border:		   #cccccc;
+$input-focus:		   #66afe9;
+$input-color:		   #555555;
+
+$selection-bg: 	 	   #ffffff;
+$selection-color:      #555555;
+
+$color-modal: 	       #0C0F13;
+
+/*
+|--------------------------------------------------------------------------
+| Fonts
+|--------------------------------------------------------------------------
+*/
+
+$font-main : 	  'Roboto', sans-serif;
+$font-regular:     'Roboto', sans-serif;
+$font-bold: 	  'Roboto', sans-serif;
+$font-light: 	  'Roboto', sans-serif;
+
+/*
+|--------------------------------------------------------------------------
+| Media Queries
+|--------------------------------------------------------------------------
+*/
+
+$media-desk: 		    "only screen and (max-width: 1170px)";
+$media-tablet-lg: 	"only screen and (max-width: 960px)";
+$media-tablet: 		  "only screen and (max-width: 770px)";
+$media-mobile-lg: 	"only screen and (max-width: 640px)";
+$media-mobile: 		  "only screen and (max-width: 480px)";
+
+// Ex:  @media #{$media-tablet}

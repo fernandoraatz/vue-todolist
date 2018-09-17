@@ -1,0 +1,93 @@
+/*
+|--------------------------------------------------------------------------
+| Form Fields e Row
+|--------------------------------------------------------------------------
+*/
+
+.form-row {
+    margin: 15px 0;
+    @extend .clearfix;
+ }
+ 
+ .form-field_full   { @extend %grid-12; }
+ .form-field_large  { @extend %grid-8; }
+ .form-field_medium { @extend %grid-6; }
+ .form-field_small  { @extend %grid-4; }
+ 
+ /*
+ |--------------------------------------------------------------------------
+ | Inputs
+ |--------------------------------------------------------------------------
+ */
+ 
+ textarea, select, input{
+     width:100%;
+     height:40px;
+     padding-left: 10px;
+     background-color: $input-bg;
+     border: 1px solid $input-border;
+     transition: border linear .2s, box-shadow linear .2s;
+ 
+       &:focus{
+           border-color: $input-border;
+           outline: 0;
+           outline: thin dotted \9;
+           box-shadow: 0 0 2px $input-focus;
+       }
+ }
+ 
+ textarea{
+   min-height:150px;
+ }
+ 
+ /*
+ |--------------------------------------------------------------------------
+ | Label and Errors
+ |--------------------------------------------------------------------------
+ */
+ 
+ label{
+     display:inline-block;
+     margin-bottom: 5px;
+     font-size: 0.95em;
+ 
+     
+ }
+ 
+ .label-error{
+     color: rgb(208, 24, 24);
+     font-size: 0.9em;
+     margin-bottom: 15px;
+ }
+ 
+ .label-tip{
+     display:inline-block;
+     margin-bottom: 5px;
+ }
+ 
+ 
+ /*
+ |--------------------------------------------------------------------------
+ | Placeholder
+ |--------------------------------------------------------------------------
+ */
+ 
+ 
+ input[type="text"]::-webkit-input-placeholder {
+     -webkit-transition: opacity 0.6s linear;
+     color: $input-color;
+ }
+ 
+ input[type="text"]:focus::-webkit-input-placeholder {
+     opacity: 0
+ }
+ 
+ textarea::-webkit-input-placeholder {
+     -webkit-transition: opacity 0.6s linear;
+     color: $input-color;
+ }
+ 
+ textarea:focus::-webkit-input-placeholder {
+     opacity: 0
+ }
+ 
